@@ -43,7 +43,7 @@ public class Register extends HttpServlet {
 			RequestDispatcher rd = request.getRequestDispatcher("Home.jsp");
 			rd.forward(request, response);
 		}else{
-			RequestDispatcher rd = request.getRequestDispatcher("Register.jsp");
+			RequestDispatcher rd = request.getRequestDispatcher("index.jsp");
 			rd.include(request, response);
 		}
 	}
